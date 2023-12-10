@@ -1,0 +1,132 @@
+:root {
+  --primary-color: #00a63f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Jost", sans-serif;
+  height: 7000px;
+}
+a {
+  text-decoration: none;
+}
+input,
+textarea,
+select,
+button {
+  font-size: inherit;
+  font-family: inherit;
+}
+/* common */
+
+/* Header */
+.navbar {
+  position: relative;
+  background-color: transparent !important;
+}
+.navbar::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  bottom: -15px;
+  background-color: #686666;
+}
+.navbar-icon {
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--primary-color);
+  margin-top: 5px;
+}
+.navbar-text {
+  color: #fff;
+  /* margin: 14px 0 0 5px; */
+}
+
+.navbar-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.navbar-desc {
+  font-size: 14px;
+  font-weight: 200;
+  margin: 5px 0 0 3px;
+}
+.nav-link {
+  position: relative;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+  transition: all 0.5s;
+}
+.nav-link:hover {
+  color: var(--primary-color);
+}
+.nav-link::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  background-color: var(--primary-color);
+  width: 0;
+  height: 2px;
+}
+.dropdown-item {
+  margin: 5px 0;
+  position: relative;
+}
+.dropdown-item::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 0;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  background-color: var(--primary-color);
+  transition: all 0.5s;
+}
+.dropdown-item:hover::after {
+  width: 100%;
+}
+.dropdown-item:hover {
+  color: var(--primary-color);
+}
+.navbar-search {
+  cursor: pointer;
+  padding: 10px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 50%;
+}
+.carousel-item img {
+}
+.over-lay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+/* Blog Page */
+
+/* End Blog Page */
+
+/* 404 Page */
+
+/* End 404 Page */

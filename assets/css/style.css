@@ -21,9 +21,14 @@ button {
   font-size: inherit;
   font-family: inherit;
 }
+li {
+  list-style: none;
+}
 /* common */
 
 /* Header */
+.header {
+}
 .navbar {
   position: relative;
   background-color: transparent !important;
@@ -46,6 +51,7 @@ button {
 .navbar-text {
   color: #fff;
   /* margin: 14px 0 0 5px; */
+  margin-left: 5px;
 }
 
 .navbar-title {
@@ -111,17 +117,226 @@ button {
   color: #fff;
   border-radius: 50%;
 }
-.carousel-item img {
+/* Carousel */
+.carousel-bg {
 }
+
+/* img {
+  position: relative;
+}
+ img::before{
+content: "";
+display: inline-block;
+position: absolute;
+inset: 0  ;
+
+background-color: rgba(29, 42, 55, 0.8);
+background-color: red;
+} */
 .over-lay {
+}
+.carousel-control-next,
+.carousel-control-prev {
+  display: flex;
+  align-items: end;
+  position: absolute;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  right: 0 !important;
+  display: flex;
+  justify-content: start;
+  width: 0 !important;
+}
+
+.carousel-control-prev {
+  left: inherit;
+  margin: 0 75px;
+}
+
+.arrow-right,
+.arrow-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: -100px;
+  bottom: 120px;
+  background: #151421;
+  width: 50px;
+  height: 50px;
+  z-index: 12;
+  outline: none;
+  cursor: pointer;
+  border-radius: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
+  border: 1px solid var(255, 255, 255, 0.2);
+  z-index: 4;
+}
+.carousel-content {
+  display: inline-block;
+  z-index: 3;
+}
+.carousel-text {
   position: absolute;
   top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: 1;
+  left: 0;
+  background-color: rgba(29 , 42, 55, 0.8);
 }
+.carousel-heading {
+  position: absolute;
+  top: 25%;
+  left: 7%;
+  color: #fff;
+  font-size: 65px;
+  line-height: 1.1;
+  margin-bottom: 18px;
+  font-weight: 600;
+  width: 900px;
+}
+.carousel-desc {
+  position: absolute;
+  top: 43%;
+  left: 7%;
+
+  color: #fff;
+  width: 750px;
+  font-size: 20px;
+  line-height: 30px;
+  opacity: 0.9;
+}
+.carousel-btn {
+  position: absolute;
+  top: 55%;
+  left: 7%;
+
+  outline: none;
+  border: none;
+  padding: 16px 24px;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  transition: all 0.5s;
+}
+.carousel-btn:hover {
+  background-color: #005a22;
+}
+/* About Home HTML */
+.about{
+background-color: #151421;
+padding:70px 0 ;
+}
+
+
+.about-left,.news-left{
+color: #fff;
+}
+.about-title, .new-title{
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 30px;
+
+  color: #7e7d7d;
+  display: block;
+}
+.about-heading, .news-heading{
+  font-size: 35px;
+  line-height: 45px;
+  width: 550px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+.about-desc,.news-desc{
+  width: 580px;
+  margin: 20px 0;
+color: #c2c2c2;
+line-height: 1.6;
+}
+.about-list{
+margin-top: 10px;
+}
+
+.about-item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+.about-icon{
+  margin-right: 5px;
+  padding: 5px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+
+}
+
+
+.about-media{
+  gap: 20px;
+}
+.about-img{
+  width: 100%;
+  border-radius: 12px;
+
+}
+.about-img:nth-child(2){
+  margin-top: 20px;
+}
+/* News */
+.news{
+  background-color: #100f19;
+  padding: 70px 0;
+}
+.news-content{
+  display: flex;
+  justify-content: space-around ;
+}
+.news-media{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 20px ;
+}
+.news-item{
+  background-color: #151421;
+  padding: 40px 90px;
+  text-align: center;
+  transform: translateY(0);
+  transition: all 0.5s;
+
+}
+.news-item:hover{
+  transform: translateY(-0.25rem);
+  box-shadow: rgba(46, 41, 51, 0.08) 0px 2px 4px, rgba(71, 63, 79, 0.16) 0px 5px 10px;
+}
+.news-btn{
+  color: #fff;
+  display: inline-block;
+  padding: 16px 28px;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  transition: all 0.5s;
+}
+.news-sub{
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+  margin-top: 25px;
+  display: block;
+  color: #eee;
+
+}
+.news-btn:hover{
+  background-color: #005a22;
+
+}
+
 
 /* Blog Page */
 

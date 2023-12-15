@@ -5,7 +5,6 @@ $(function() {
       if($(window).scrollTop() > 50) {
           $(".header").addClass("active");
       } else {
-          //remove the background property so it comes transparent again (defined in your css)
          $(".header").removeClass("active");
       }
   });
@@ -15,7 +14,7 @@ $(function() {
 
 
 $('.back-to-top').click(function(){
-  $('html, body').animate({ scrollTop: 0 }, 'slow');
+  $('html, body').animate({ scrollTop: 0 }, 100);
   return false;
 });
 

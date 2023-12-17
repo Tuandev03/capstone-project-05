@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Bog Post</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -21,37 +21,16 @@
       integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
-
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;900&display=swap"
       rel="stylesheet" />
-    <!-- Fancybox CSS -->
+    <!-- Animation  -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
-    <!-- Slick CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
-      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
-      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer" />
-    <!-- Animate CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-      integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer" />
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Style CSS -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
@@ -59,10 +38,10 @@
   </head>
 
   <body>
-    <header class="w-100 header">
+    <header class="position-absolute z-2 w-100 header">
       <!-- Navbar  -->
-      <nav class="navbar mobile-btn navbar-expand-lg bg-body-tertiary pt-4">
-        <div class="container red">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary pt-4">
+        <div class="container">
           <button
             class="navbar-toggler"
             type="button"
@@ -74,7 +53,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse mobile-btn navbar-collapse justify-content-between"
+            class="collapse navbar-collapse justify-content-between"
             id="navbarNavDropdown">
             <div class="navbar-content d-flex">
               <i class="navbar-icon fa-solid fa-align-right"></i>
@@ -91,10 +70,10 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./about.html">ABOUT</a>
+                <a class="nav-link" href="#">ABOUT</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./services.html">SERVICES</a>
+                <a class="nav-link" href="#">SERVICES</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -156,101 +135,14 @@
               <div class="col-lg-4 col-md-6 col-12">
                 <div class="card mx-auto">
                   <img
-                    src="./assets/images/blog1.jpeg"
-                    class="card-img-top"
-                    alt="..." />
-                  <div class="card-body text-start">
-                    <p class="card-text">Startup Business</p>
-                    <a class="card-title" href="#"> Hello world!</a>
-                  </div>
-                  <div class="card-footer">
-                    <div class="brand-content">
-                      <img src="./assets/images/w3.jpg" alt="" />
-                      <ul class="blog-meta">
-                        <li>
-                          <span class="meta-value">by</span
-                          ><a href="#author"> </a
-                          ><a class="url-author" href="#">W3Layouts</a>
-                        </li>
-                      </ul>
-                      <div class="date">
-                        <p>April 1, 2021</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-12">
-                <div class="card mx-auto">
-                  <img
-                    src="./assets/images/blog2.jpeg"
-                    class="card-img-top"
-                    alt="..." />
-                  <div class="card-body text-start">
-                    <p class="card-text">Startup Business</p>
-                    <a class="card-title" href="#">
-                      Companies in NY launched a joint project on a three-tower
-                      hall!</a
-                    >
-                  </div>
-                  <div class="card-footer">
-                    <div class="brand-content">
-                      <img src="./assets/images/w3.jpg" alt="" />
-                      <ul class="blog-meta">
-                        <li>
-                          <span class="meta-value">by</span
-                          ><a href="#author"> </a
-                          ><a class="url-author" href="#">W3Layouts</a>
-                        </li>
-                      </ul>
-                      <div class="date">
-                        <p>April 1, 2021</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-12">
-                <div class="card mx-auto">
-                  <img
-                    src="./assets/images/blog3.jpeg"
-                    class="card-img-top"
-                    alt="..." />
-                  <div class="card-body text-start">
-                    <p class="card-text">Marketing Strategy</p>
-                    <a class="card-title" href="#"
-                      >Design breakthrough upgrades the product and ready to
-                      launch</a
-                    >
-                  </div>
-                  <div class="card-footer">
-                    <div class="brand-content">
-                      <img src="./assets/images/w3.jpg" alt="" />
-                      <ul class="blog-meta">
-                        <li>
-                          <span class="meta-value">by</span
-                          ><a href="#author"> </a
-                          ><a class="url-author" href="#">W3Layouts</a>
-                        </li>
-                      </ul>
-                      <div class="date">
-                        <p>April 1, 2021</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-12">
-                <div class="card mx-auto">
-                  <img
-                    src="./assets/images/b3.jpeg"
+                    src="./assets/images/b4.jpeg"
                     class="card-img-top"
                     alt="..." />
                   <div class="card-body text-start">
                     <p class="card-text">Web development</p>
                     <a class="card-title" href="#">
-                      The fledgling company builds its business around AC
-                      motors</a
+                      Simple Business Solutions has generated thousands of
+                      dollars</a
                     >
                   </div>
                   <div class="card-footer">
@@ -273,45 +165,12 @@
               <div class="col-lg-4 col-md-6 col-12">
                 <div class="card mx-auto">
                   <img
-                    src="./assets/images/blog5.jpeg"
+                    src="./assets/images/bg1-scaled.jpeg"
                     class="card-img-top"
                     alt="..." />
                   <div class="card-body text-start">
-                    <p class="card-text">Startup Business</p>
-                    <a class="card-title" href="#"
-                      >Business opportunity in developing a reliable electric
-                      motor.</a
-                    >
-                  </div>
-                  <div class="card-footer">
-                    <div class="brand-content">
-                      <img src="./assets/images/w3.jpg" alt="" />
-                      <ul class="blog-meta">
-                        <li>
-                          <span class="meta-value">by</span
-                          ><a href="#author"> </a
-                          ><a class="url-author" href="#">W3Layouts</a>
-                        </li>
-                      </ul>
-                      <div class="date">
-                        <p>April 1, 2021</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-12">
-                <div class="card mx-auto">
-                  <img
-                    src="./assets/images/blog4.jpeg"
-                    class="card-img-top"
-                    alt="..." />
-                  <div class="card-body text-start">
-                    <p class="card-text">Marketing Strategy</p>
-                    <a class="card-title" href="#"
-                      >How to start a profitable home-based business within
-                      mins?</a
-                    >
+                    <p class="card-text">Web development</p>
+                    <a class="card-title" href="#"> Hello world!</a>
                   </div>
                   <div class="card-footer">
                     <div class="brand-content">
@@ -337,25 +196,25 @@
         <nav class="text-center container pagination-container">
           <ul class="pagination justify-content-center">
             <li>
-              <span aria-current="page" class="page-number current">1</span>
+              <a class="prev page-number" href="./page.blogpost.html">Prev</a>
             </li>
             <li>
               <a
-                href="./page.blogpost-2.html"
+                href="./page.blogpost.html"
                 aria-current="page"
                 class="page-number"
-                >2</a
+                >1</a
               >
             </li>
             <li>
-              <a class="next page-number" href="./page.blogpost-2.html">Next</a>
+              <span aria-current="page" class="page-number current">2</span>
             </li>
           </ul>
         </nav>
       </article>
     </main>
     <!-- Main content blog post end -->
-    <!-- Footer  -->
+    <!-- Footer -->
     <footer class="footer">
       <div class="footer-inner container">
         <ul class="footer-list row row-cols-4">
@@ -413,21 +272,8 @@
           </li>
         </ul>
       </div>
-      <p class="footer-corp">
-        © 2023 Corp Vision All Rights Reserved | WordPress Theme by
-        <span>W3Layouts.</span>
-      </p>
     </footer>
-    <!-- End Footer  -->
-    <!-- Back To Top -->
-    <a href="#" class="back-to-top">
-      <i class="fa fa-angle-up"> </i>
-    </a>
-    <!-- Jquery CDN -->
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.min.js"
-      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-      crossorigin="anonymous"></script>
+    <!-- Footer end -->
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

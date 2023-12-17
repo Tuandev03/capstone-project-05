@@ -1803,3 +1803,273 @@ background-color: red;
   opacity: 0.8;
   text-align: center;
 }
+
+/* Blog Page */
+
+.page {
+  margin: 0 0 1.5em;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #00000000;
+  box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.04);
+  border-radius: 0.25rem;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.card:hover .card-img-top {
+  overflow: hidden;
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
+.card-img-top {
+  cursor: pointer;
+}
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+.card-footer {
+  background: #fff;
+  border-top: 1px solid #eee;
+  padding: 0.75rem 1.25rem;
+}
+
+.brand-content {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.card-text {
+  font-weight: 400;
+  font-size: 17px;
+  color: #999;
+}
+
+.card-title {
+  display: block;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #3f3a64;
+  margin-top: 10px;
+}
+a {
+  font-size: 16px;
+  color: var(--heading-color);
+  font-weight: 600;
+  line-height: 26px;
+  text-transform: capitalize;
+}
+
+a:hover {
+  color: #009f4d;
+}
+.pagination {
+  gap: 7px;
+}
+
+.pagination-container {
+  margin-top: 52x;
+  margin-bottom: 92px;
+}
+
+.page-number {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 36px;
+  font-weight: 600;
+  color: #000;
+  border: 0.5px solid #bcc3bf;
+}
+
+.next,
+.prev {
+  width: 60px;
+}
+
+.current {
+  background-color: #009f4d;
+  color: #fff;
+  border: 2px solid #009f4d;
+}
+
+/* End Blog Page */
+
+/* 404 Page */
+
+.breadcrumb-bg-about {
+  background: url("../images/b1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+
+.hero-overlay {
+  background: rgb(62 70 78 / 80%);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.title-banner {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+}
+
+p.inner-page-para {
+  color: #fff;
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+.main-cover {
+  max-width: 850px;
+  margin: auto;
+}
+
+.main-cover img {
+  max-width: 80%;
+}
+
+.cover-para {
+  font-size: 120px;
+  line-height: 1;
+  text-align: center;
+  flex-basis: 100%;
+
+  color: #009f4d;
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: none;
+}
+.error-title {
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 36px;
+  margin: 16px 0 18px 0;
+}
+.description {
+  font-size: 17px;
+  line-height: 27px;
+  color: #666;
+  opacity: 0.8;
+}
+
+.form-inline.search-form {
+  position: relative;
+}
+
+.search-form .form-control {
+  width: 100%;
+  color: #666;
+  background: #fff;
+  padding: 12px 70px 12px 17px;
+  font-size: 18px;
+  height: 55px;
+  border: 1px solid #eee;
+  font-style: italic;
+  display: block;
+}
+
+.search-form .btn.search {
+  color: #fff;
+  font-size: 16px;
+  width: 60px;
+  letter-spacing: 0px;
+  border: none;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  display: inline-block;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background: #009f4d;
+}
+
+.back-button {
+  font-weight: 600;
+  font-size: 18px;
+  color: #3f3a64;
+}
+
+/* End 404 Page */
+
+/* Contact Page  */
+.contact-main {
+  background: #f8f9fa;
+}
+.information {
+}
+
+.information h3 {
+  color: #3f3a64;
+}
+.information-title {
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 700;
+}
+
+.information-description {
+}
+
+/* .contacts {
+  display: flex;
+} */
+
+.contact-container {
+}
+
+.icon-box {
+  font-size: 40px;
+  color: #3f3a64;
+}
+.text-box h3 {
+  color: #3f3a64;
+}
+.contacts .card {
+  box-shadow: rgba(1, 1, 1, 0.05) 1px 1px 5px 0px;
+}
+.card-text-contact {
+}
+
+.contact-main .map iframe {
+  width: 100% !important;
+  height: 400px !important;
+}
+.contact-main .from-top .from-top-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.contact-main .form-content .form-title h3 {
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 600;
+  color: #3f3a64;
+}
+/* Contact Page End */

@@ -214,5 +214,6 @@
     width: 100% !important;
   }
   .carousel-text{
+    /* display: none !important; */
   }
 }

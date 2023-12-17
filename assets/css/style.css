@@ -489,7 +489,7 @@ background-color: red;
 .gallery-logos {
   margin: 70px 0 0 0;
   padding: 45px 0 0 0;
-  border-top: 1px solid #666;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 .gallery-item-logo {
   margin: 0 20px;
@@ -1657,6 +1657,9 @@ background-color: red;
   opacity: 0.8;
 }
 .contact-heading {
+  font-size: 35px;
+  color: #fff;
+  font-weight: 600;
   margin: 8px 0 0;
   width: 537px;
   text-align: start;

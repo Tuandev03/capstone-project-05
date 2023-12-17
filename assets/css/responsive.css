@@ -1,0 +1,218 @@
+/* PC
+@media screen and (min-width: 992.98px) {
+  .about-shape {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    top: -374px !important;
+    z-index: 1 !important;
+   
+  } */
+/* 
+  .carousel {
+    height: 650px !important;
+  }
+  .carousel-item{
+    height: 100%;
+  }
+  .carousel-content img {
+    height: 650px;
+    object-fit: cover;
+  } */
+
+
+/* Tablet */
+@media (min-width: 767.98px) and (max-width: 991px) {
+  .header {
+    width: 100% !important;
+  }
+  .show {
+    /* background-color: rgba(0, 0, 0, 0.7)!important;  */
+  }
+
+  .header.active {
+    /* background-color: rgba(0, 0, 0, 0.7) !important; */
+
+    transition: all 0.5s;
+  }
+  .navbar {
+    width: 100% !important;
+  }
+
+  .navbar-toggler {
+    background-color: var(--primary-color);
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+    width: 44px !important;
+    height: 44px !important;
+    color: transparent !important;
+
+    /* outline: none!important;
+    
+    border: none!important; */
+  }
+  .navbar-toggler-icon {
+    color: #fff !important;
+  }
+  .mobile-btn {
+    display: block;
+  }
+  .carousel-heading {
+    font-size: 45px !important;
+    width: 685px !important;
+    margin-top: 50px;
+    font-weight: normal !important;
+    line-height: 1.1;
+  }
+  .carousel-desc {
+    font-size: 18px !important;
+    width: 600px !important;
+    opacity: 0.9 !important;
+    line-height: 28;
+    margin-top: 58px;
+    padding: 0 10px;
+  }
+  .carousel-btn {
+    padding: 15px 50px;
+    display: block;
+    margin-top: 70px;
+  }
+
+  .carousel {
+    /* padding: 70px 0; */
+    height: 650px !important;
+  }
+  .carousel-item {
+    height: 100%;
+  }
+  .carousel-content img {
+    height: 650px;
+    object-fit: cover;
+  }
+  .about-shape {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    top: -595px !important;
+    z-index: 1 !important;
+  }
+  .navbar-content {
+    display: block;
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-left {
+    /* display: flex;
+    align-items: center; */
+  }
+  .about-img:nth-child(1) {
+    width: 330px;
+    height: 495px;
+  }
+  .about-image + .about-image .about-img {
+    width: 330px;
+    height: 240px;
+  }
+  .about-media {
+    margin-top: 40px !important;
+  }
+  /* .about-image {
+  
+  } */
+
+  /* .about-img:nth-child(3){
+    width: 330px;
+    height: 240px;
+  } */
+  .gallery-list {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    margin: 0 !important;
+  }
+  .gallery-item {
+    width: 330px !important;
+    height: 240px !important;
+  }
+  .gallery-img {
+    width: 330px !important;
+    height: 240px !important;
+  }
+  .gallery-logos {
+    margin: 0 auto;
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+  .gallery-logo {
+    width: 150px !important;
+    height: 73px !important;
+  }
+  .news-content {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .news-left {
+  }
+  .new-right {
+    margin-top: 40px !important;
+  }
+  .services-list {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .services-item:nth-child(3) {
+    /* width: 100%;
+    margin: 0 auto !important; */
+  }
+  .success {
+    padding: 0;
+  }
+  .success-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .success-img {
+    width: 650px !important;
+  }
+  .success-desc {
+    width: 650px !important;
+  }
+  .success-left {
+  }
+  .success-item {
+    width: 650px;
+  }
+  .startup-list {
+    display: grid !important;
+    grid-template-columns: repeat(2,1fr) !important;
+    /* margin: 0; */
+    gap: 25px!important;
+  }
+  .footer-list{
+    display: grid !important;
+    grid-template-columns: repeat(2,1fr) !important;
+    row-gap: 25px !important;
+  }
+  .footer-title,.footer-sub{
+    width: 330px !important;
+    display: block!important;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 767.98px) {
+  .header {
+    width: 100% !important;
+  }
+  .navbar {
+    width: 100% !important;
+  }
+  .carousel-text{
+  }
+}

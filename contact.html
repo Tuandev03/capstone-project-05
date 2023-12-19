@@ -249,45 +249,46 @@
                     </div>
                     <div class="form-top">
                       <div class="form-top-left">
-                        <div class="input-group mb-3">
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Name"
-                            aria-label="Username"
-                            required />
-                        </div>
-                        <div class="input-group mb-3">
-                          <input
-                            type="phone"
-                            class="form-control"
-                            placeholder="Your Phone Number"
-                            aria-label="Phone" />
-                        </div>
-                        <div class="input-group mb-3">
-                          <input
-                            type="email"
-                            class="form-control"
-                            placeholder="*Email"
-                            aria-label="Email" />
-                        </div>
-                        <div class="input-group mb-3">
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Subject"
-                            aria-label="Username" />
-                        </div>
+                        <input
+                          type="text"
+                          name="name"
+                          id="name"
+                          placeholder="Name"
+                          required="" />
+
+                        <input
+                          type="number"
+                          name="phone"
+                          placeholder="Your Phone Number"
+                          required="" />
+
+                        <input
+                          type="email"
+                          name="email"
+                          id="email"
+                          placeholder="Email*"
+                          required="" />
+
+                        <input
+                          type="text"
+                          name="subject"
+                          id="subject"
+                          placeholder="Subject"
+                          required="" />
                       </div>
-                      <div class="form-top-right">
+                      <div class="form-top-righ">
                         <textarea
-                          class="form-control"
-                          aria-label="With textarea"
-                          placeholder="Messege*"></textarea>
+                          name="message"
+                          id="message"
+                          placeholder="Message*"
+                          required=""></textarea>
                       </div>
                     </div>
+
                     <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                      <button class="btn btn-primary me-md-2" type="button">
+                      <button
+                        class="contact-btn justify-content-center btn-primary me-md-2"
+                        type="button">
                         Submit Now
                       </button>
                     </div>

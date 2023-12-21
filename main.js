@@ -2,7 +2,7 @@
 // var $$= document.querySelectorAll.bind(document)
 $(function() {
   $(window).on("scroll", function() {
-      if($(window).scrollTop() > 50) {
+      if($(window).scrollTop() > 100) {
           $(".header").addClass("active");
       } else {
          $(".header").removeClass("active");
@@ -10,13 +10,24 @@ $(function() {
   });
 });
 
+var btn = $('#button');
 
-
-
-$('.back-to-top').click(function(){
-  $('html, body').animate({ scrollTop: 0 }, 100);
-  return false;
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
 });
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '100');
+});
+
+
+
+
 
 
 

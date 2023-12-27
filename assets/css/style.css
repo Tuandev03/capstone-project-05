@@ -254,7 +254,7 @@ background-color: red;
 .carousel-desc {
   position: absolute;
   top: 43%;
-  left: 7%;
+  left: 8%;
 
   color: #fff;
   width: 750px;
@@ -265,7 +265,7 @@ background-color: red;
 .carousel-btn {
   position: absolute;
   top: 55%;
-  left: 7%;
+  left: 8%;
 
   outline: none;
   border: none;

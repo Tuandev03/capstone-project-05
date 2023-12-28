@@ -2,7 +2,7 @@
 
 - Nhóm: **Lê Thanh Tuấn** và **Lương Đình Khánh Sang**
 - Lớp CyberSoft BC61
-- Deadline 26/12/2023
+- Deadline 29/12/2023
 
 ## Bảng phân công công việc
 
@@ -22,10 +22,11 @@
 - Layout mẫu: https://wp.w3layouts.com/corpvision/
 - Xem site dự án: https://tuandev03.github.io/capstone-project-05/
 - Requirements: https://apicrm.cybersoft.edu.vn/files/06-04-2023-11-03-28-bc-capstone_bootstrap.pdf
+- Deloy : https://capstone-project-05.vercel.app/
 
 ## To do tasks:
 
 ✅ Code<br>
 ✅ Link Github chứa source code<br>
 ✅ Link online của dự án<br>
-✅ Link youtube (https://youtu.be/YnWvlgp0dLo)
+✅ Link youtube (https://youtu.be/sA4-pPZnqTA?si=cb9v4vQd6M-20XwM)

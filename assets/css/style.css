@@ -240,6 +240,10 @@ background-color: red;
   inset: 0;
   background-color: rgba(29, 42, 55, 0.8);
 }
+.carousel-fade .carousel-item {
+  /* z-index: -21 !important; */
+  /* height: 850px; */
+}
 .carousel-heading {
   position: absolute;
   top: 25%;
@@ -349,8 +353,8 @@ background-color: red;
   width: 0;
 }
 .about-img {
-  width: 270px ;
-  height: 405px  ;
+  width: 270px;
+  height: 405px;
   border-radius: 8px;
   margin-top: 60px;
 }
@@ -492,7 +496,7 @@ background-color: red;
 }
 .gallery-list {
   justify-content: center;
-grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   margin-top: 20px;
 }
@@ -863,10 +867,9 @@ grid-template-columns: repeat(3,1fr);
   margin: 10px 0 10px;
   padding: 0 20px;
   transition: all 0.5s;
-
 }
 .startup-list {
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   column-gap: 25px;
   margin-top: 25px;
 }
@@ -879,7 +882,7 @@ grid-template-columns: repeat(3,1fr);
   overflow: hidden;
 }
 .startup-item:hover .startup-img {
- transform: scale(1.1);
+  transform: scale(1.1);
 }
 .startup-item:hover .startup-title {
   color: var(--primary-color);
@@ -1720,7 +1723,7 @@ grid-template-columns: repeat(3,1fr);
 }
 .check-img {
   width: 570px;
-  height:380px;
+  height: 380px;
   object-fit: cover;
   padding: 0;
 }
